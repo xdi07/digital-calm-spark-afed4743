@@ -8,12 +8,11 @@ Source assets for the Android (and iOS) launcher icons.
 
 ## Generate Android (and iOS) icons
 
-After you've cloned the repo locally and run `npx cap add android`, generate
-all required icon densities + the adaptive icon XML automatically:
+After you've cloned the repo locally, generate all required icon densities +
+the adaptive icon XML automatically:
 
 ```bash
-npm install --save-dev @capacitor/assets
-npx capacitor-assets generate --android
+npm run android:icons
 ```
 
 This will populate:
@@ -28,9 +27,8 @@ This will populate:
 Then:
 
 ```bash
-npx cap sync android
-npx cap open android
+npm run android:sync
+npm run android:open
 ```
 
-Re-run `npx capacitor-assets generate --android` any time you change the
-source PNGs in this folder.
+Re-run `npm run android:icons` any time you change the source PNGs in this folder.
