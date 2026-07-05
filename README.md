@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# Welcome
 
 ## Project info
 
@@ -8,11 +8,11 @@
 
 There are several ways of editing your application.
 
-**Use Lovable**
+**Use github/vs code**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Simply open vs code link it go git hub push repository and start editing code.
 
-Changes made via Lovable will be committed automatically to this repo.
+Github repository link 👇.
 
 **Use your preferred IDE**
 
